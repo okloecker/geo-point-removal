@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://www.npmjs.com/package/node-geo-distance"
+    "url": "https://www.npmjs.com/package/geo-point-removal"
   },
   "keywords": [
     "geo-points",
