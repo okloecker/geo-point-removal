@@ -1,0 +1,28 @@
+{
+  "name": "geo-point-removal",
+  "version": "1.0.0",
+  "description": "Compresses array of geo location by removing points that are near to each other.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.npmjs.com/package/node-geo-distance"
+  },
+  "keywords": [
+    "geo-points",
+    "locations",
+    "compression",
+    "removal"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "node-geo-distance": "^1.2.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
