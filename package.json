@@ -1,6 +1,6 @@
 {
   "name": "geo-point-removal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Compresses array of geo location by removing points that are near to each other.",
   "main": "index.js",
   "scripts": {
