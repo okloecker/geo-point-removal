@@ -23,6 +23,7 @@
     "node-geo-distance": "^1.2.0"
   },
   "devDependencies": {
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "jsdoc": "^3.6.3"
   }
 }
