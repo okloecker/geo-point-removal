@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://www.npmjs.com/package/geo-point-removal"
+    "url": "https://github.com/okloecker/geo-point-removal"
   },
   "keywords": [
     "geo-points",
@@ -19,7 +19,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "date-fns": "^2.9.0",
     "debug": "^4.1.1",
+    "geokdbush": "^1.1.0",
+    "gpx-parse": "^0.10.4",
+    "kdbush": "^3.0.0",
     "node-geo-distance": "^1.2.0"
   },
   "devDependencies": {
