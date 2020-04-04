@@ -1,5 +1,8 @@
 const nearPointRemoval = require("./lib/nearPointRemoval");
-const outlierPointRemoval = require("./lib/outlierPointRemoval");
+const {
+  outlierPointRemoval,
+  outlierPointRemovalMultiple
+} = require("./lib/outlierPointRemoval");
 const { centroid } = require("./lib/centroid");
 const { distancesFromCenter, drms } = require("./lib/drms");
 const { HAVERSINE, VINCENTY } = require("./lib/constants");
@@ -25,5 +28,6 @@ module.exports = {
   getGridCellForCoordinates,
   getGridCoordinatesFlat,
   nearPointRemoval,
-  outlierPointRemoval
+  outlierPointRemoval,
+  outlierPointRemovalMultiple
 };
